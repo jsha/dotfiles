@@ -1,0 +1,4 @@
+--ignore-directory=is:.gocache
+--ignore-directory=is:vendor
+--ignore-directory=is:.venv
+--context=2

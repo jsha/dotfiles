@@ -1,0 +1,12 @@
+#command
+h	left-scroll
+l	right-scroll
+\e[1~	goto-line
+\e[2~	back-line
+\e[3~	forw-line
+\e[4~	goto-end
+\e[5~	back-scroll
+\e[6~	forw-scroll
+	back-screen
+#env
+LESS=-MM -e -i -f -c --quit-at-eof -X -R -S -n -x2

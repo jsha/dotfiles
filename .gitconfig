@@ -1,0 +1,10 @@
+[user]
+	name = Jacob Hoffman-Andrews
+	email = github@hoffman-andrews.com
+[diff]
+	tool = vimdiff
+	algorithm = histogram
+[rerere]
+	enabled = true
+[core]
+	excludesfile = ~/.gitignore

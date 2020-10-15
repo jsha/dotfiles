@@ -1,0 +1,5 @@
+#!/bin/bash
+
+apt install ack-grep
+
+ln -s "$(dirname $0)"/.[a-z]* ~/
